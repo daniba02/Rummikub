@@ -32,7 +32,7 @@ struct tSoportes {
 	tArraySoportes soporte;
 	int contador;
 };
-[[[ [[[]] ] ] ] ]
+
 typedef tFicha tArrayBolsa[8][numFichas];
 
 struct tBolsa {
