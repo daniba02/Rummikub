@@ -53,6 +53,7 @@ struct tTablero {
 int menu();
 void inicializarBolsa(tBolsa& bolsa);
 tFicha robar(tBolsa& bolsa);
+void repartir(tBolsa& bolsa, tSoportes& soportes);
 
 
 int main() {
@@ -119,4 +120,9 @@ tFicha robar(tBolsa& bolsa) {
 			}
 		}
 	}
+}
+
+void repartir(tBolsa& bolsa, tSoportes& soportes) {
+
+
 }
